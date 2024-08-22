@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Encriptador y desencritador</h1>
+        <h1>Encriptador de mensajes</h1>
     </header>
     
     <main class="container">
@@ -16,21 +16,11 @@
         <section class="input-section">
             <textarea id="input-text" cols="30" rows="10" placeholder="Ingrese el texto aquí"style="width: 832px; height: 530px;"></textarea>
             <div class="validation-msg"><img src="./assets/svg/bi_exclamation-circle-fill.svg" alt="alert icon"><span>
-                Solo letras minúsculas y sin acentos</span></div>           
-            <div class="buttons" style="
-                  width: 676px;
-                  height: 67px;
-                ">
-                <button id="encrypt-btn" style="
-                    width: 326px; 
-                    height: 65px;
-                ">Encriptar</button>
-
-                <button id="decrypt-btn"style="
-                  width: 326px;
-                  height: 65px;
-               ">Desencriptar</button>
-                
+                Solo letras minúsculas y sin acentos</span>
+            </div>           
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
             </div>
         </section>
         
@@ -38,13 +28,7 @@
             <img src="./assets/img/Muñeco.png" alt="" class="output-image" id="output-image">
             <textarea id="output-text" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
 
-            <button id="copy-btn" style="
-            width: 324px;
-            height: 63px;
-            border-top-width: 2px;
-            border-left-width: 2px;
-            border-right-width: 2px;
-            border-bottom-width: 2px;">Copiar</button>
+            <button id="copy-btn">Copiar</button>
         </section>
     </main>
     
