@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+    
+    <main class="container">
+        
+        <section class="input-section">
+            <textarea id="input-text" cols="30" rows="10" placeholder="Ingrese el texto aquí"style="width: 832px; height: 530px;"></textarea>
+            <div class="validation-msg"><img src="./assets/svg/bi_exclamation-circle-fill.svg" alt="alert icon"><span>
+                Solo letras minúsculas y sin acentos</span></div>           
+            <div class="buttons" style="
+                  width: 676px;
+                  height: 67px;
+                ">
+                <button id="encrypt-btn" style="
+                    width: 326px; 
+                    height: 65px;
+                ">Encriptar</button>
+
+                <button id="decrypt-btn"style="
+                  width: 326px;
+                  height: 65px;
+               ">Desencriptar</button>
+                
+            </div>
+        </section>
+        
+        <section class="output-section">
+            <img src="./assets/img/Muñeco.png" alt="" class="output-image" id="output-image">
+            <textarea id="output-text" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+
+            <button id="copy-btn" style="
+            width: 324px;
+            height: 63px;
+            border-top-width: 2px;
+            border-left-width: 2px;
+            border-right-width: 2px;
+            border-bottom-width: 2px;">Copiar</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Creado por Monik Lu - 2024</p>
+    </footer>
+
+    <script src="challenge-encriptador.js"></script>
+</body>
+</html>
+
+
