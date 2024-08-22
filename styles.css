@@ -90,8 +90,6 @@ h1 {
 .output-section {
     flex: 1;
     text-align: center;
-    flex: 1;
-    text-align: center;
     align-items: center;
     justify-content: center;
     gap: 0rem;
